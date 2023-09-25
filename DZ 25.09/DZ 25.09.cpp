@@ -9,10 +9,10 @@ int main()
 {
 	int id = 1;
 	int sum = 100;
-	int max = 1000;
+	int max = 1000; 
 	int min = 10;	
 	int AddSum, cont, GiveMoney;	
-	Bankomat Bank1(id, sum, max, min);		
+	Bankomat Bank1(id, sum, max, min);		 
 	Bank1.Print();	
 	do {
 		cout << "Enter the amount you want to add ( 10, 20, 50, 100, 200, 500, 1000 ): ";	
